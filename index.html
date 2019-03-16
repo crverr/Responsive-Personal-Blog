@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<title>Sign In</title>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	<script type="text/javascript" src="js/demo.js"></script>
+		
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">	
+	<link rel="stylesheet" href="css/sign-in.css">
+</head>
+<body>
+	<!-- 导航条 -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Mrs.CRJ</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="crj.html">
+						<span class="glyphicon glyphicon-home"></span>HOME
+					</a></li>
+					<li><a href="detail.html">
+						<span class="glyphicon glyphicon-tasks"></span>DETAIL
+					</a></li>
+					<li><a href="service.html">
+						<span class="glyphicon glyphicon-apple"></span>SERVICE
+					</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="about.html">
+							ABOUT ME
+							<span class="glyphicon glyphicon-menu-down"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="about.html">MYSELF</a></li>
+							<li><a href="#">RESOURCE</a></li>
+							<li><a href="#">GRADUATE</a></li>
+							<li><a href="#">OTHERS</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!-- 搜索框 -->
+				<from class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" placeholder="Search" class="form-control">
+					</div>
+					<button class="btn btn-default">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</from>
+				<!-- 登陆退出 -->
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">SIGN IN</a></li>
+					<li><a href="">SIGN OUT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav> 
+
+	<div id="Sign-In">
+		<!-- 关闭按钮 -->
+		<!-- <button id="close">X</button> -->
+		<span id="close" class="glyphicon glyphicon-remove-sign"></span>
+		<div class="content">
+			<div class="people">
+				<span class="glyphicon glyphicon-user"></span>
+			</div>
+			<div class="information">
+				<label for="username">
+					<span class="glyphicon glyphicon-user"></span>
+				</label>	
+				<input id="username" type="text" placeholder="chavroka@gmail.com">				
+			</div>
+			<div class="information">
+				<label for="password">
+					<span class="glyphicon glyphicon-magnet"></span>
+				</label>
+				<input id="password" type="password" placeholder="password">			
+			</div>
+			<p><a href="">forgot your password?</a></p>
+			<div class="section">
+				<form action="">
+					<input id="remember" type="checkbox" value="" checked="">
+					<label for="remember">
+						Remember Me?
+					</label>	
+									
+					<input id="button" type="button" value="Sign In">
+				</form>				
+			</div>
+		</div>
+		<div id="add"></div>
+	</div>
+</body>
+</html>

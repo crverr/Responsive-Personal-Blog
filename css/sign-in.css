@@ -1,0 +1,92 @@
+body {
+	background-color: #ddd;
+}
+#Sign-In {
+	width: 550px;
+	height: 350px;
+	background-color: #fff;
+	margin: auto;
+	padding: 40px 100px;
+	box-shadow: 5px 5px 5px #ccc;
+	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#Sign-In #close {
+	font-size: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #bbb;
+}
+#Sign-In #close:hover {
+	color: #949494;
+}
+#Sign-In .content .people {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	text-align: center;
+	margin:2px auto 20px;
+}
+#Sign-In .content .people span {
+	font-size: 62px;
+	padding: 2px 0 0 0;
+	color: #aaa;
+}
+#Sign-In .content .information {
+	position: relative;
+	text-align: center;
+}
+#Sign-In .content .information span {
+	width: 40px;
+	padding: 0;
+	cursor: pointer;
+	color: #616161;
+}
+#Sign-In .content .information input {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+#Sign-In .content .information input:focus {
+	border: 1px solid #80d6a3;
+	box-shadow: 0 0 3px #ddd;
+}
+#Sign-In .content p {
+	text-transform: capitalize;
+	text-align: right;
+	margin-top: -5px;
+}
+#Sign-In .content a {
+	text-decoration: none;
+}
+#Sign-In .content p a {
+	color: #aaa;
+	font-size: 13px;
+}
+#Sign-In .content p a:hover {
+	color: #616161;
+}
+#Sign-In .content .section {
+	padding: 5px 0 5px 15px;
+	color: #5b5b5b;
+}
+#Sign-In .content .section #button {
+	display: inline-block;
+	float: right;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 5px 15px;
+	box-shadow: 1px 1px 1px #7b7b7b;
+	color: #3c3c3c;
+	font-size: 17px;
+}
